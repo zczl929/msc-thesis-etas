@@ -48,3 +48,50 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 .positai
+
+# ============================================
+# Project-specific (added for MSc thesis)
+# ============================================
+
+# Large simulation outputs (regeneratable from scripts)
+results/simulations/*.rds
+results/fits/*.rds
+results/figures/*.pdf
+results/figures/*.png
+results/tables/*.csv
+
+# Keep folder structure visible on GitHub
+!results/simulations/.gitkeep
+!results/fits/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# Raw data (don't commit; document source in README instead)
+data/raw/*
+!data/raw/.gitkeep
+
+# Logs
+logs/*.log
+logs/*.txt
+!logs/.gitkeep
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# renv library (lock file is committed, library is not)
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+
+# Sensitive
+*.env
+secrets/
