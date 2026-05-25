@@ -3,8 +3,6 @@
 A Bayesian study of how short-term aftershock incompleteness affects parameter
 recovery and credible-interval coverage in temporal ETAS models.
 
-Seojeong Hong · MSc Statistics, Imperial College London · 2026
-
 See [`docs/proposal.pdf`](docs/proposal.pdf) for the full proposal.
 
 ## Research Questions
