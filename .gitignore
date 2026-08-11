@@ -39,9 +39,6 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
-
 # translation temp files
 po/*~
 
@@ -83,6 +80,21 @@ logs/*.txt
 
 # macOS
 .DS_Store
+
+# Local development history, not part of the final submission
+archive/
+
+# Generated plotting and LaTeX build artefacts
+Rplots.pdf
+writing/*.aux
+writing/*.bbl
+writing/*.blg
+writing/*.fdb_latexmk
+writing/*.fls
+writing/*.log
+writing/*.out
+writing/*.toc
+writing/*.synctex.gz
 
 # renv library (lock file is committed, library is not)
 renv/library/
