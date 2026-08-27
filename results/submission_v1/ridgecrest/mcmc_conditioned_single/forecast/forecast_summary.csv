@@ -1,0 +1,3 @@
+"model","condition_mainshock","completeness_mode","n_history_events","n_likelihood_targets","n_test","log_score","log_score_per_event","count_q025","count_median","count_q975","count_covered","overflow_rate","observed_max","maxmag_q025","maxmag_median","maxmag_q975","branching_median","probability_supercritical","probability_alpha_ge_b","information_gain_vs_naive"
+"naive",TRUE,"single",811,810,224,538.063892772209,2.40207094987593,68.975,176,752.4,TRUE,0.004,4.9,4.41995753683942,5.29571792336908,6.8265349109591,0.764241918790936,0.0174791666666667,0.0005625,0
+"plugin",TRUE,"single",811,810,224,544.188069632,2.42941102514285,149,263,1501.7,TRUE,0.02,4.9,4.70011295190919,5.50333596906299,7.0117468910828,1.4282761089119,0.83971875,0.160625,0.0273400752669234

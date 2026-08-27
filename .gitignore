@@ -39,9 +39,6 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
-
 # translation temp files
 po/*~
 
@@ -83,6 +80,41 @@ logs/*.txt
 
 # macOS
 .DS_Store
+
+# Local development history, not part of the final submission
+archive/
+tmp/
+
+# Submission workflow intermediates.  These are reproducible from the frozen
+# configuration and ordered scripts; keep only compact manifests, summaries,
+# plotting data, and final PDF figures under version control.
+data/submission_v1/*.rds
+results/submission_v1/**/*.rds
+results/submission_v1/initialisation/
+results/submission_v1/b_sensitivity/
+results/submission_v1/prior_sensitivity/
+results/submission_v1/ridgecrest/initialisation/
+results/submission_v1/ridgecrest/b_sensitivity/
+results/submission_v1/ridgecrest/prior_sensitivity/
+results/submission_v1/figures/thesis/*.png
+
+# Development-only scripts that do not contribute to the dissertation.
+scripts/submission/11_make_traceplot_mockup.R
+scripts/submission/17_fit_ridgecrest_prior_sensitivity.R
+
+# Generated plotting and LaTeX build artefacts
+Rplots.pdf
+writing/*.tex
+writing/*.bib
+writing/*.aux
+writing/*.bbl
+writing/*.blg
+writing/*.fdb_latexmk
+writing/*.fls
+writing/*.log
+writing/*.out
+writing/*.toc
+writing/*.synctex.gz
 
 # renv library (lock file is committed, library is not)
 renv/library/

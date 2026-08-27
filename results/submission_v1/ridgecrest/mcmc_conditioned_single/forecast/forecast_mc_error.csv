@@ -1,0 +1,2 @@
+"n_posterior_draws","information_gain_per_event","mc_q025","mc_q975","probability_positive","note"
+1000,0.0273400752669234,0.025757253083644,0.0292464120826073,1,"Interval quantifies posterior Monte Carlo integration error, not generalisation across earthquake sequences."
