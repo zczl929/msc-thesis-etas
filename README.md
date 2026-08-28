@@ -32,7 +32,6 @@ The main workflow follows the numbered scripts in `scripts/submission/`:
 01--04                     synthetic simulation, MCMC, and evaluation
 05--08                     Ridgecrest preparation, MCMC, and prediction
 09                         main dissertation figures
-10                         final verification
 12--16 and 19              supplementary sensitivity analyses and figures
 ```
 
@@ -45,9 +44,3 @@ sensitivity settings.
 - Synthetic summaries: `results/submission_v1/mcmc_primary/summary/`
 - Ridgecrest summaries: `results/submission_v1/ridgecrest/`
 - Final figures: `results/submission_v1/figures/thesis/`
-
-To check the committed results and active R code without rerunning MCMC:
-
-```sh
-Rscript scripts/submission/10_verify_submission.R
-```

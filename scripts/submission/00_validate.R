@@ -131,12 +131,12 @@ code_files <- c(
   file.path(
     "scripts/submission",
     c(
-      sprintf("%02d_%s.R", 0:10, c(
+      sprintf("%02d_%s.R", 0:9, c(
         "validate", "simulate", "prepare_synthetic_initialisation",
         "fit_synthetic_mcmc", "evaluate_synthetic",
         "prepare_ridgecrest", "prepare_ridgecrest_initialisation",
         "fit_ridgecrest_mcmc", "evaluate_ridgecrest",
-        "make_thesis_figures", "verify_submission"
+        "make_thesis_figures"
       )),
       "04_evaluate_synthetic_benchmarks.R",
       "12_fit_synthetic_b_sensitivity.R",
