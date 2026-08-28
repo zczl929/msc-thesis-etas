@@ -1,10 +1,11 @@
-# Bayesian ETAS inference under short-term catalogue incompleteness
+# Bayesian ETAS Inference under Short-Term Catalogue Incompleteness
 
-Code, data, and analysis outputs for an MSc dissertation comparing
-Naive ETAS with a Plug-in correction for short-term earthquake catalogue
-incompleteness. The repository contains the synthetic simulation study and
-the 2019 Ridgecrest case study. The dissertation source and bibliography are
-maintained separately.
+This repository contains the code, data, and analysis outputs for an MSc
+dissertation investigating whether a Plug-in correction for short-term
+earthquake catalogue incompleteness improves Bayesian ETAS inference relative
+to Naive ETAS. The analysis comprises a synthetic simulation study and a case
+study of the 2019 Ridgecrest earthquake sequence. The dissertation source and
+bibliography are maintained separately.
 
 ## Repository structure
 
