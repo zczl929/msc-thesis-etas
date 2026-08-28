@@ -1,6 +1,6 @@
 # Bayesian ETAS under short-term catalogue incompleteness
 
-Code, frozen data, and analysis outputs for an MSc dissertation comparing
+Code, data, and analysis outputs for an MSc dissertation comparing
 Naive ETAS with a Plug-in correction for short-term earthquake catalogue
 incompleteness. The repository contains the synthetic simulation study and
 the 2019 Ridgecrest case study. The dissertation source and bibliography are
@@ -10,8 +10,8 @@ maintained separately.
 
 ```text
 R/                      Model, simulation, MCMC, and evaluation functions
-config/                 Frozen analysis settings
-data/real/              Frozen Ridgecrest catalogue
+config/                 Analysis settings
+data/real/              Ridgecrest catalogue
 data/submission_v1/     Synthetic catalogue manifest
 scripts/submission/     Analysis scripts in execution order
 results/submission_v1/  Final CSV summaries and dissertation figures
@@ -35,9 +35,8 @@ The main workflow follows the numbered scripts in `scripts/submission/`:
 12--16 and 19              supplementary sensitivity analyses and figures
 ```
 
-MCMC scripts reuse compatible saved fits by default. Environment variables in
-the scripts and configuration files specify model choices, chain lengths, and
-sensitivity settings.
+Analysis settings, including MCMC chain lengths and sensitivity specifications,
+are defined in the configuration files and analysis scripts.
 
 ## Main outputs
 
