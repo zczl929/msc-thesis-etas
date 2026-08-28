@@ -1,4 +1,4 @@
-# Bayesian ETAS under short-term catalogue incompleteness
+# Bayesian ETAS inference under short-term catalogue incompleteness
 
 Code, data, and analysis outputs for an MSc dissertation comparing
 Naive ETAS with a Plug-in correction for short-term earthquake catalogue
